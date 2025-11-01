@@ -1,8 +1,6 @@
 module Ch03 where
 
-import System.IO (hWaitForInput)
-
--- main:: IO ()
+-- main :: IO ()
 -- main = do
 --     putStr "so... to start, it is obligatory to say: "
 --     putStrLn "hello world!"
@@ -20,9 +18,9 @@ main :: IO ()
 main = do
     putStrLn myGreeting
     putStrLn secondGreeting
-  where
-    secondGreeting =
-        concat [hello, " ", world]
+  where secondGreeting :: String
+        secondGreeting =
+          concat [hello, " ", world]
 
 -- Exercises: Scope
 

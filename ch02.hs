@@ -1,6 +1,9 @@
 module Ch02 where
-import System.Console.Haskeline (waitForAnyKey)
 -- Chapter 2
+
+-- Comprehension Check
+half x = x / 2
+square x = x * x
 
 -- Exercises: Parentheses and association
 
